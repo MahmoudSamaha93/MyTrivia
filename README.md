@@ -1,44 +1,28 @@
-# Full Stack API Final Project
+## API Trivia
 
-## Full Stack Trivia
+This API was implemented to serve the Udacitrivia app requests:-
 
-Udacity is invested in creating bonding experiences for its employees and students. A bunch of team members got the idea to hold trivia on a regular basis and created a  webpage to manage the trivia app and play the game, but their API experience is limited and still needs to be built out. 
+1. Display questions - both all questions and by category. Questions should show the question, category and difficulty rating by default and can show/hide the answer.
+2. Delete questions.
+3. Add questions and require that they include question and answer text.
+4. Search for questions based on a text query string.
+5. Play the quiz game, randomizing either all questions or within a specific category.
 
-That where you come in! Help them finish the trivia app so they can start holding trivia and seeing who's the most knowledgeable of the bunch. The application must:
+## Get-Started
 
-1) Display questions - both all questions and by category. Questions should show the question, category and difficulty rating by default and can show/hide the answer. 
-2) Delete questions.
-3) Add questions and require that they include question and answer text.
-4) Search for questions based on a text query string.
-5) Play the quiz game, randomizing either all questions or within a specific category. 
+First of all, you have to match some prerequisites like this to be able to develop:- - python - see their website to install it. (https://www.python.org/) - flask - see their website to get start with it. (https://flask.palletsprojects.com/en/1.1.x/installation/) - postgresql - see their website to get start with it. (https://www.postgresql.org/) - sqlalchemy - the library which works with python. installed by using this command
+'pip3 install flask-sqlalchemy'
 
-Completing this trivia app will give you the ability to structure plan, implement, and test an API - skills essential for enabling your future applications to communicate with others. 
+then to start this in development environment: and look also at README file at backend folder to know more..
 
-## Tasks
+1. export FLASK_APP=flaskr
+2. export FLASK_ENV=development
+3. flask run
 
-There are `TODO` comments throughout project. Start by reading the READMEs in:
+This app front-end was built with react. so if you want to develop in front-end side be familiar with.
 
-1. [`./frontend/`](./frontend/README.md)
-2. [`./backend/`](./backend/README.md)
+## Finally
 
-We recommend following the instructions in those files in order. This order will look familiar from our prior work in the course.
+    I need to listen from you, I'm really happy to share this with you, and waiting for your contribution. thanks to all
 
-## Starting and Submitting the Project
-
-[Fork](https://help.github.com/en/articles/fork-a-repo) the [project repository]() and [Clone](https://help.github.com/en/articles/cloning-a-repository) your forked repository to your machine. Work on the project locally and make sure to push all your changes to the remote repository before submitting the link to your repository in the Classroom. 
-
-## About the Stack
-
-We started the full stack application for you. It is desiged with some key functional areas:
-
-### Backend
-
-The `./backend` directory contains a partially completed Flask and SQLAlchemy server. You will work primarily in app.py to define your endpoints and can reference models.py for DB and SQLAlchemy setup. 
-
-### Frontend
-
-The `./frontend` directory contains a complete React frontend to consume the data from the Flask server. You will need to update the endpoints after you define them in the backend. Those areas are marked with TODO and can be searched for expediency. 
-
-Pay special attention to what data the frontend is expecting from each API response to help guide how you format your API. 
-
-[View the README.md within ./frontend for more details.](./frontend/README.md)
+people who helped me in this project.
